@@ -8,8 +8,8 @@ import { Footer } from './components/Footer';
 import { DashboardMetrics } from './types/metrics';
 import { getAssetUrl } from './utils/assets';
 
-// Fallback import so app works offline or with zero-config
-import staticMetrics from './data/dashboard_metrics.json';
+// Fallback default metrics typed directly (avoids missing module errors in CI)
+import { DEFAULT_METRICS } from './data/defaultMetrics';
 
 const SectionDivider: React.FC = () => (
   <div className="w-full flex items-center justify-center my-4 select-none pointer-events-none px-4">
@@ -22,7 +22,7 @@ const SectionDivider: React.FC = () => (
 );
 
 export function App() {
-  const [metrics, setMetrics] = useState<DashboardMetrics>(staticMetrics as DashboardMetrics);
+  const [metrics, setMetrics] = useState<DashboardMetrics>(DEFAULT_METRICS);
   const [activeSection, setActiveSection] = useState<string>('kpis');
 
   useEffect(() => {

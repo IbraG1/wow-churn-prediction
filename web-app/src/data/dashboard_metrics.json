@@ -24,14 +24,8 @@
   },
   "confusion_matrix": {
     "matrix": [
-      [
-        757,
-        397
-      ],
-      [
-        173,
-        5707
-      ]
+      [757, 397],
+      [173, 5707]
     ],
     "true_negatives": 757,
     "false_positives": 397,
@@ -41,34 +35,13 @@
     "tp_pct": 0.9706
   },
   "feature_importance": [
-    {
-      "feature": "recency_days",
-      "importance": 0.5103
-    },
-    {
-      "feature": "total_sessions",
-      "importance": 0.2254
-    },
-    {
-      "feature": "days_active_span",
-      "importance": 0.1625
-    },
-    {
-      "feature": "max_level",
-      "importance": 0.0417
-    },
-    {
-      "feature": "level_velocity",
-      "importance": 0.0232
-    },
-    {
-      "feature": "avg_session_minutes",
-      "importance": 0.0207
-    },
-    {
-      "feature": "has_guild",
-      "importance": 0.0162
-    }
+    { "feature": "recency_days", "importance": 0.5103 },
+    { "feature": "total_sessions", "importance": 0.2254 },
+    { "feature": "days_active_span", "importance": 0.1625 },
+    { "feature": "max_level", "importance": 0.0417 },
+    { "feature": "level_velocity", "importance": 0.0232 },
+    { "feature": "avg_session_minutes", "importance": 0.0207 },
+    { "feature": "has_guild", "importance": 0.0162 }
   ],
   "churn_by_guild": {
     "with_guild": {
@@ -87,51 +60,11 @@
     }
   },
   "churn_by_level_bracket": [
-    {
-      "bracket": "1-20",
-      "min_level": 1,
-      "max_level": 20,
-      "total_players": 24235,
-      "churned_players": 22920,
-      "retained_players": 1315,
-      "churn_rate": 0.9457
-    },
-    {
-      "bracket": "21-40",
-      "min_level": 21,
-      "max_level": 40,
-      "total_players": 2930,
-      "churned_players": 2354,
-      "retained_players": 576,
-      "churn_rate": 0.8034
-    },
-    {
-      "bracket": "41-60",
-      "min_level": 41,
-      "max_level": 60,
-      "total_players": 2545,
-      "churned_players": 1726,
-      "retained_players": 819,
-      "churn_rate": 0.6782
-    },
-    {
-      "bracket": "61-70",
-      "min_level": 61,
-      "max_level": 70,
-      "total_players": 4364,
-      "churned_players": 2370,
-      "retained_players": 1994,
-      "churn_rate": 0.5431
-    },
-    {
-      "bracket": "71-80",
-      "min_level": 71,
-      "max_level": 80,
-      "total_players": 1095,
-      "churned_players": 27,
-      "retained_players": 1068,
-      "churn_rate": 0.0247
-    }
+    { "bracket": "1-20", "min_level": 1, "max_level": 20, "total_players": 24235, "churned_players": 22920, "retained_players": 1315, "churn_rate": 0.9457 },
+    { "bracket": "21-40", "min_level": 21, "max_level": 40, "total_players": 2930, "churned_players": 2354, "retained_players": 576, "churn_rate": 0.8034 },
+    { "bracket": "41-60", "min_level": 41, "max_level": 60, "total_players": 2545, "churned_players": 1726, "retained_players": 819, "churn_rate": 0.6782 },
+    { "bracket": "61-70", "min_level": 61, "max_level": 70, "total_players": 4364, "churned_players": 2370, "retained_players": 1994, "churn_rate": 0.5431 },
+    { "bracket": "71-80", "min_level": 71, "max_level": 80, "total_players": 1095, "churned_players": 27, "retained_players": 1068, "churn_rate": 0.0247 }
   ],
   "hours_played_distribution": {
     "churned": {

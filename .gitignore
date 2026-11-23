@@ -1,6 +1,10 @@
-# Dataset and raw data
+# Dataset and raw data (only root /data folder)
 /data/
 *.csv
+
+# Web application data (ensure metrics JSON is tracked in Git)
+!web-app/public/data/
+!web-app/src/data/
 
 # Node & Frontend build outputs
 node_modules/
