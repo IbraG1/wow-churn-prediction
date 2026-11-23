@@ -1,5 +1,5 @@
 # Dataset and raw data
-data/
+/data/
 *.csv
 
 # Node & Frontend build outputs
